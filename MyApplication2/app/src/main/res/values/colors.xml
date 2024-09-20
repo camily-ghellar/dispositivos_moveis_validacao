@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="preto">#000000</color>
+    <color name="branco">#FDFCFC</color>
+    <color name="fimFundoGradiente">#F1AAC2</color>
+    <color name="inicioFundoGradiente">#B15A74</color>
+    <color name="cinza">#A2A1A1</color>
+    <color name="verdeCheck">#75D875</color>
+    <color name="vermelho">#F0FD7F81</color>
+    <color name="amarelo">#E4FCEA76</color>
+
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20sp">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Cadastrar nova pessoa"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/label_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:hint="Digite seu nome" />
+
+    <TextView
+        android:id="@+id/label_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:hint="Digite seu e-mail" />
+
+    <TextView
+        android:id="@+id/label_birthDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data de nascimento"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/birthDate"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:ems="10"
+        android:inputType="date"
+        android:padding="10dp"
+        android:hint="Digite sua data de nascimento" />
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.example.myapplication.MyFragment"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/cadastrarPessoa"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Cadastrar"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="@color/verdeCheck"
+        android:onClick="cadastrarPessoa" />
+</LinearLayout>
